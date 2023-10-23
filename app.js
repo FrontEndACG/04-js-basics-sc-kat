@@ -323,6 +323,8 @@ const button11 = document.getElementById("button11");
 button11.addEventListener("click", multiplicationTable);
 
 function multiplicationTable() {
+  output11.innerHTML = "";
+
   let num = document.getElementById("input11").value;
   let i = 1;
 
